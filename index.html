@@ -6,14 +6,112 @@
     <title>Master JS Project</title>
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- Moment JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/de.min.js"></script>
+
+    <!-- Main JS -->
     <script src="./js/main.js"></script>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <section id="global"></section>
-    <header>
-      <h1>Master JS Project</h1>
-    </header>
+    <section id="global">
+      <!-- Header -->
+      <header>
+        <div id="divLogo"><h1>Master JS Project</h1></div>
+        <div class="divClearFix"></div>
+        <nav id="navMenu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Slider -->
+
+      <div class="bxslider">
+        <div>
+          <img
+            src="./img/pexels-benjamin-suter-small.jpg"
+            title="Funky roots"
+          />
+        </div>
+        <div>
+          <img
+            src="./img/pexels-eberhard-grossgasteiger-small.jpg"
+            title="The long and winding road"
+          />
+        </div>
+        <div>
+          <img src="./img/pexels-pixabay-small.jpg" title="Happy trees" />
+        </div>
+      </div>
+
+      <!-- Content -->
+      <section id="content">
+        <div id="divPosts">
+          <!-- <article class="articlePost">
+            <h2>Title article</h2>
+            <span class="spanDate">Publish date</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+              pariatur blanditiis sint! Et amet optio excepturi fugit blanditiis
+              alias facilis, distinctio vero ex rerum quae nihil quos facere
+              aliquam commodi.
+            </p>
+            <a href="#" class="aButtonReadMore">Read More</a>
+          </article>
+          <article class="articlePost">
+            <h2>Title article</h2>
+            <span class="spanDate">Publish date</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+              pariatur blanditiis sint! Et amet optio excepturi fugit blanditiis
+              alias facilis, distinctio vero ex rerum quae nihil quos facere
+              aliquam commodi.
+            </p>
+            <a href="#" class="aButtonReadMore">Read More</a>
+          </article> -->
+        </div>
+        <aside id="sidebar">
+          <div id="divAbout">
+            <h4><span>Who am I?</span></h4>
+            <img src="img/pexels-pixabay-small.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est qui
+              rerum aliquam, doloremque quisquam ratione ducimus provident
+              tempore. Hic fugit mollitia quis enim magni aliquam molestias iste
+              accusantium libero dolor.
+            </p>
+          </div>
+          <div id="divLogin">
+            <h4><span>Log in</span></h4>
+            <form action="">
+              <label for="name">Name</label>
+              <input type="text" name="name" />
+              <label for="password">Password</label>
+              <input type="current-password" name="password" />
+              <label for="email">Email</label>
+              <input type="email" name="email" />
+              <input type="submit" value="Enter" />
+            </form>
+          </div>
+        </aside>
+
+        <div class="divClearFix"></div>
+      </section>
+    </section>
+    <footer>Master JS Project Udemy &copy;</footer>
   </body>
 </html>
