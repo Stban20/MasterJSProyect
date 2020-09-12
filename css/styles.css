@@ -6,10 +6,7 @@
   float: none;
   clear: both;
 }
-body {
-  background: url(../img/pexels-benjamin-suter-Wide.jpg);
-  background-attachment: fixed;
-}
+
 #global {
   width: 65%;
   margin: 0px auto;
@@ -23,7 +20,6 @@ body {
   font-size: 15px;
   letter-spacing: 4px;
   line-height: 60px;
-  background: #235e3d;
   color: white;
   text-align: center;
   width: 385px;
@@ -49,9 +45,7 @@ body {
   display: inline-block;
   transition: all 300ms;
 }
-#navMenu ul li:hover {
-  background: #235e3d;
-}
+
 #navMenu a {
   display: block;
   color: white;
@@ -92,7 +86,6 @@ body {
   text-align: center;
   display: block;
   padding: 15px;
-  background: #235e3d;
   color: white;
   text-decoration: none;
   margin-top: 10px;
@@ -163,4 +156,37 @@ footer {
 .bx-wrapper,
 .bx-viewport {
   height: 250px !important;
+}
+
+#divSelectorTheme {
+  position: fixed;
+  top: 40%;
+  background: rgba(51, 51, 51, 0.5);
+  width: 50px;
+  height: 100px;
+}
+
+#divToGreen,
+#divToRed,
+#divToBlue {
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  display: block;
+  margin: 0px auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#divToGreen {
+  background: #235e3d;
+}
+
+#divToRed {
+  background: #eaa42a;
+}
+
+#divToBlue {
+  background: #35b0ab;
 }

@@ -9,6 +9,8 @@
     <!-- CSS Styles -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link id="cssTheme" rel="stylesheet" href="./css/green.css" />
+
     <!-- Slider -->
     <link
       rel="stylesheet"
@@ -24,6 +26,11 @@
     <script src="./js/main.js"></script>
   </head>
   <body>
+    <div id="divSelectorTheme">
+      <div id="divToGreen"></div>
+      <div id="divToRed"></div>
+      <div id="divToBlue"></div>
+    </div>
     <section id="global">
       <!-- Header -->
       <header>
@@ -61,7 +68,8 @@
       <!-- Content -->
       <section id="content">
         <div id="divPosts">
-          <!-- <article class="articlePost">
+          <!-- Now the articles come from js
+            <article class="articlePost">
             <h2>Title article</h2>
             <span class="spanDate">Publish date</span>
             <p>

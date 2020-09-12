@@ -1,0 +1,19 @@
+body {
+    background: url(../img/pexels-eberhard-grossgasteiger-Wide.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+  }
+
+#divLogo {
+    background: #35b0ab;
+}
+
+#navMenu ul li:hover {
+    background:#35b0ab;
+  }
+
+  .aButtonReadMore {
+
+    background: #35b0ab;
+
+  }

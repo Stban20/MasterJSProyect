@@ -58,4 +58,18 @@ $(document).ready(function () {
     `;
     $("#divPosts").append(post);
   });
+
+  //----Theme Selector
+  let cssTheme = $("#cssTheme");
+  $("#divToGreen").click(function () {
+    cssTheme.attr("href", "css/green.css");
+  });
+
+  $("#divToRed").click(function () {
+    cssTheme.attr("href", "css/red.css");
+  });
+
+  $("#divToBlue").click(function () {
+    cssTheme.attr("href", "css/blue.css");
+  });
 });

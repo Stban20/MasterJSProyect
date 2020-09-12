@@ -1,0 +1,19 @@
+body {
+    background: url(../img/pexels-benjamin-suter-Wide.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+  }
+
+#divLogo {
+    background: #235e3d;
+}
+
+#navMenu ul li:hover {
+    background: #235e3d;
+  }
+
+  .aButtonReadMore {
+
+    background: #235e3d;
+
+  }

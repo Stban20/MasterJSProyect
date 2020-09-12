@@ -1,0 +1,19 @@
+body {
+    background: url(../img/pexels-pixabay-wide.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+  }
+
+#divLogo {
+    background: #eaa42a;
+}
+
+#navMenu ul li:hover {
+    background: #eaa42a;
+  }
+
+  .aButtonReadMore {
+
+    background: #eaa42a;
+
+  }
