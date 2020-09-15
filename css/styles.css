@@ -126,8 +126,7 @@ form input[type="text"],
 form input[type="password"],
 form input[type="email"],
 form input[type="number"],
-select
- {
+select {
   padding: 5px;
   border-radius: 2px;
   border: 1px solid #ccc;
@@ -196,24 +195,24 @@ footer {
   background: #35b0ab;
 }
 
-.aGoUp{
+.aGoUp {
   color: white;
   text-decoration: none;
   display: block;
   float: right;
 }
 
-#divBox1{
+#divBox1 {
   width: 60%;
   float: left;
   margin-top: 40px;
 }
 
-#divAccodion{
+#divAccodion {
   margin-top: 20px;
 }
 
-#divWatch{
+#divWatch {
   font-size: 30px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -225,14 +224,14 @@ footer {
   float: left;
 }
 
-#formContact{
+#formContact {
   width: 50%;
   margin-top: 15px;
   font-family: Arial, Helvetica, sans-serif;
   float: left;
 }
 
-#formContact label{
+#formContact label {
   width: 100%;
   display: block;
   margin-top: 5px;
@@ -242,8 +241,8 @@ footer {
 #surname-error,
 #email-error,
 #birthdate-error,
-#years-error{
-  background:tomato;
+#years-error {
+  background: tomato;
   color: white;
   padding: 5px;
   margin-bottom: 15px;

@@ -120,22 +120,19 @@ $(document).ready(function () {
     }, 1000);
   }
 
-    //------------Validation Contact Form
-    if (window.location.href.indexOf("contact") > -1) {
-      
-      $("#formContact").validate({
-        messages: {
-          name: 'Please specify your name',
-          surname: 'Please specify your surname',
-          email: 'Please specify a valid email address',
-          birthdate: 'Please specify a valid birthdate',
-          years: 'Please specify your age',
-        }
-      });
-      // $('#divContact form').submit(function(){
-      //   location.reload();
-      // })
-    }
-  
-
+  //------------Validation Contact Form
+  if (window.location.href.indexOf("contact") > -1) {
+    $("#formContact").validate({
+      messages: {
+        name: "Please specify your name",
+        surname: "Please specify your surname",
+        email: "Please specify a valid email address",
+        birthdate: "Please specify a valid birthdate",
+        years: "Please specify your age",
+      },
+    });
+    // $('#divContact form').submit(function(){
+    //   location.reload();
+    // })
+  }
 });
