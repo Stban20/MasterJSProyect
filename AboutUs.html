@@ -4,29 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Master JS Project</title>
+
     <!-- JQuery -->
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="./js/jquery-ui-1.12.1/jquery-ui.min.css" />
+    <link
+      rel="stylesheet"
+      href="./js/jquery-ui-1.12.1/jquery-ui.structure.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./js/jquery-ui-1.12.1/jquery-ui.theme.min.css"
+    />
 
     <!-- CSS Styles -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link id="cssTheme" rel="stylesheet" href="./css/green.css" />
 
-    <!-- Slider -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
-    />
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-    <!-- Moment JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/de.min.js"></script>
-
     <!-- Main JS -->
     <script src="./js/main.js"></script>
   </head>
+
   <body>
     <div id="divSelectorTheme">
       <div id="divToGreen"></div>
@@ -47,49 +47,32 @@
           </ul>
         </nav>
       </header>
-      <!-- Slider -->
 
-      <div class="bxslider">
-        <div>
-          <img src="./img/pexels-benjamin-suter-Wide.jpg" title="Boreal" />
-        </div>
-        <div>
-          <img
-            src="./img/pexels-eberhard-grossgasteiger-Wide.jpg"
-            title="Road to the universe"
-          />
-        </div>
-        <div>
-          <img src="./img/pexels-pixabay-wide.jpg" title="wHolw Universe" />
-        </div>
-      </div>
-
-      <!-- Content -->
+      <!-- Accordion -->
       <section id="content">
-        <div id="divPosts">
-          <!-- Now the articles come from js
-            <article class="articlePost">
-            <h2>Title article</h2>
-            <span class="spanDate">Publish date</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-              pariatur blanditiis sint! Et amet optio excepturi fugit blanditiis
-              alias facilis, distinctio vero ex rerum quae nihil quos facere
-              aliquam commodi.
-            </p>
-            <a href="#" class="aButtonReadMore">Read More</a>
-          </article>
-          <article class="articlePost">
-            <h2>Title article</h2>
-            <span class="spanDate">Publish date</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-              pariatur blanditiis sint! Et amet optio excepturi fugit blanditiis
-              alias facilis, distinctio vero ex rerum quae nihil quos facere
-              aliquam commodi.
-            </p>
-            <a href="#" class="aButtonReadMore">Read More</a>
-          </article> -->
+        <div id="divBox1">
+            <h2>About me</h2>
+            <div id="divAccodion">
+                <h3>Who are we?</h3>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corporis ex eaque, commodi ullam obcaecati perspiciatis, nemo impedit molestias eum reiciendis debitis eius. Ducimus quia nesciunt alias non impedit sit.
+                    </p>
+                </div>
+                <h3>Our Service</h3>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corporis ex eaque, commodi ullam obcaecati perspiciatis, nemo impedit molestias eum reiciendis debitis eius. Ducimus quia nesciunt alias non impedit sit.
+                    </p>
+                </div>
+                <h3>Our clients</h3>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corporis ex eaque, commodi ullam obcaecati perspiciatis, nemo impedit molestias eum reiciendis debitis eius. Ducimus quia nesciunt alias non impedit sit.
+                    </p>
+                </div>
+            </div>
+            
         </div>
         <aside id="sidebar">
           <div id="divAbout">
